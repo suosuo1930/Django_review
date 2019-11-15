@@ -59,17 +59,32 @@ class BookForms(forms.Form):
 class BookModleForm(forms.ModelForm):
     class Meta:
         model = models.Book
-        fields = ["name", 'authors']
+        fields = "__all__"
         widgets = {
             'name': forms.TextInput(attrs={
                 "class": "form-control",
-                'backssss': 'ssssssssss',
-            })
+            }),
+            "price": forms.NumberInput(attrs={
+                "class": "form-control",
+            }),
+            "img": forms.URLInput(attrs={
+                "class": "form-control",
+            }),
+            "publish": forms.Select(attrs={
+                "class": "form-control",
+            }),
+            "authors": forms.SelectMultiple(attrs={
+                'class': "form-control",
+
+            },)
 
         }
         labels = {
             'name': '用户名',
             'authors': '作者',
+            "price": "价格",
+            "img": '图片地址',
+            'publish':"出版社",
         }
         error_messages = {
             'name': {

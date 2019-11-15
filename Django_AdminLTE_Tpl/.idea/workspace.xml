@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66c6d37c-98a6-4e65-9a3a-e3252220f17c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/adminLTE-2.4.10/bower_components/jquery/dist/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/adminLTE-2.4.10/bower_components/jquery/dist/jquery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/suosuo/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/suosuo/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suosuo/templates/base/starter.html" beforeDir="false" afterPath="$PROJECT_DIR$/suosuo/templates/base/starter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/suosuo/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/suosuo/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suosuo/serwolais.py" beforeDir="false" afterPath="$PROJECT_DIR$/suosuo/serwolais.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suosuo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/suosuo/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/suosuo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/suosuo/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,50 +61,83 @@
     <session id="583858801">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.51" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Django Console" value="270" />
-          <entry key="html" value="892" />
-          <entry key="py" value="2577" />
+          <entry key="html" value="976" />
+          <entry key="py" value="3488" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="892" />
-          <entry key="Python" value="2847" />
+          <entry key="HTML" value="976" />
+          <entry key="Python" value="3758" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="4" />
+          <entry key="html" value="6" />
           <entry key="js" value="3" />
-          <entry key="py" value="20" />
+          <entry key="py" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="4" />
+          <entry key="HTML" value="6" />
           <entry key="JavaScript" value="3" />
-          <entry key="Python" value="20" />
+          <entry key="Python" value="23" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/suosuo/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="36" column="36" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="36" />
+            <state relative-caret-position="397">
+              <caret line="53" column="53" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="53" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
+                <marker date="1573828440553" expanded="true" signature="1969:2023" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/SystemInstallFiles/python_msi/pythonVirtual_Env/modelForm_Demo01-fsnusrAP/Lib/site-packages/django/core/serializers/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="617">
+              <caret line="127" column="21" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
+              <caret line="131" column="40" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/suosuo/templates/viewDemo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/suosuo/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,24 +146,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/suosuo/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-469">
-              <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+            <state relative-caret-position="352">
+              <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1573747631775" expanded="true" signature="1999:2083" ph="..." />
-                <marker date="1573747631775" expanded="true" signature="2099:2108" ph="..." />
+                <marker date="1573828065758" expanded="true" signature="1999:2083" ph="..." />
+                <marker date="1573828065758" expanded="true" signature="2099:2108" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resi/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/suosuo/serwolais.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="242">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <marker date="1573749541170" expanded="true" signature="91:115" ph="..." />
+                <marker date="1573825594806" expanded="true" signature="91:115" ph="..." />
               </folding>
             </state>
           </provider>
@@ -145,8 +183,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -185,12 +223,13 @@
         <option value="$PROJECT_DIR$/Pipfile" />
         <option value="$PROJECT_DIR$/suosuo/templates/starter.html" />
         <option value="$PROJECT_DIR$/suosuo/templates/suosuo.html" />
-        <option value="$PROJECT_DIR$/suosuo/urls.py" />
         <option value="$PROJECT_DIR$/suosuo/templates/base/starter.html" />
         <option value="$PROJECT_DIR$/suosuo/templates/index.html" />
-        <option value="$PROJECT_DIR$/suosuo/forms.py" />
-        <option value="$PROJECT_DIR$/suosuo/views.py" />
         <option value="$PROJECT_DIR$/suosuo/serwolais.py" />
+        <option value="$PROJECT_DIR$/suosuo/urls.py" />
+        <option value="$PROJECT_DIR$/suosuo/forms.py" />
+        <option value="$PROJECT_DIR$/suosuo/templates/viewDemo.html" />
+        <option value="$PROJECT_DIR$/suosuo/views.py" />
       </list>
     </option>
   </component>
@@ -212,6 +251,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,25 +262,18 @@
             <path>
               <item name="Django_AdminLTE_Tpl" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django_AdminLTE_Tpl" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django_AdminLTE_Tpl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django_AdminLTE_Tpl" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="adminLTE-2.4.10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django_AdminLTE_Tpl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django_AdminLTE_Tpl" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="adminLTE-2.4.10" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+              <item name="resi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Django_AdminLTE_Tpl" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django_AdminLTE_Tpl" type="462c0819:PsiDirectoryNode" />
               <item name="suosuo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_AdminLTE_Tpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_AdminLTE_Tpl" type="462c0819:PsiDirectoryNode" />
+              <item name="suosuo" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Django_AdminLTE_Tpl" type="b2602c69:ProjectViewProjectNode" />
@@ -250,7 +283,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -422,12 +454,12 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1300" height="784" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40725806" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18870968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962447" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7683706" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -436,7 +468,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33067092" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.10543131" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.7923323" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -500,7 +532,6 @@
     <SUITE FILE_PATH="coverage/modelForm_Demo01$dotenv_self.coverage" NAME="dotenv_self Coverage Results" MODIFIED="1573615897088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.virtualenvs/modelForm_Demo01--f1dz0Yj/Lib/site-packages/django/db/models/fields/related.py" />
     <entry file="file://$PROJECT_DIR$/resi/views.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -529,13 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resi/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -611,24 +635,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#84#93#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/suosuo/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/suosuo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/adminLTE-2.4.10/bower_components/jquery/dist/core.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -648,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/suosuo/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/SystemInstallFiles/python_msi/pythonVirtual_Env/modelForm_Demo01-fsnusrAP/Lib/site-packages/django/forms/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -669,29 +673,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/SystemInstallFiles/python_msi/pythonVirtual_Env/modelForm_Demo01-fsnusrAP/Lib/site-packages/django/core/serializers/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="121" column="27" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/SystemInstallFiles/python_msi/pythonVirtual_Env/modelForm_Demo01-fsnusrAP/Lib/site-packages/django/contrib/admin/sites.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://D:/SystemInstallFiles/python_msi/pythonVirtual_Env/modelForm_Demo01-fsnusrAP/Lib/site-packages/django/contrib/admin/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-550">
           <caret line="14" column="27" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#71#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -699,103 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-959">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#812#874#0" />
-            <element signature="e#927#1820#0" />
-            <element signature="e#927#1017#1" />
-            <element signature="e#1188#1803#0" />
-            <element signature="e#1355#1399#0" />
-            <element signature="e#1426#1803#0" />
-            <element signature="e#1478#1803#0" />
-            <element signature="e#1713#1803#0" />
-            <element signature="e#1865#2270#0" />
-            <element signature="e#1865#1945#1" />
-            <element signature="e#2291#2658#0" />
-            <element signature="e#2291#2595#1" />
-            <element signature="e#2681#2779#0" />
-            <element signature="e#2807#3072#0" />
-            <element signature="e#2807#2896#1" />
-            <element signature="e#2944#3056#0" />
-            <element signature="e#3113#3333#0" />
-            <element signature="e#3245#3310#0" />
-            <element signature="e#3392#5407#0" />
-            <element signature="e#3392#3661#1" />
-            <element signature="e#3947#5114#0" />
-            <element signature="e#4149#4960#0" />
-            <element signature="e#4306#4571#0" />
-            <element signature="e#4383#4509#0" />
-            <element signature="e#4623#4715#0" />
-            <element signature="e#4987#5114#0" />
-            <element signature="e#4987#5041#0" />
-            <element signature="e#5446#7545#0" />
-            <element signature="e#5491#5657#0" />
-            <element signature="e#5707#5755#0" />
-            <element signature="e#5835#6452#0" />
-            <element signature="e#5864#6265#0" />
-            <element signature="e#5930#6152#0" />
-            <element signature="e#5959#6089#0" />
-            <element signature="e#6508#6604#0" />
-            <element signature="e#6665#7044#0" />
-            <element signature="e#7098#7331#0" />
-            <element signature="e#7098#7156#1" />
-            <element signature="e#7389#7545#0" />
-            <element signature="e#7389#7524#1" />
-            <element signature="e#7580#8105#0" />
-            <element signature="e#7580#7789#1" />
-            <element signature="e#7998#8105#0" />
-            <element signature="e#8145#8717#0" />
-            <element signature="e#8145#8452#1" />
-            <element signature="e#8508#8573#0" />
-            <element signature="e#8771#9499#0" />
-            <element signature="e#8910#9408#0" />
-            <element signature="e#8910#8975#0" />
-            <element signature="e#9050#9091#0" />
-            <element signature="e#9167#9230#0" />
-            <element signature="e#9257#9391#0" />
-            <element signature="e#9427#9473#0" />
-            <element signature="e#9542#10277#0" />
-            <element signature="e#9542#9824#1" />
-            <element signature="e#10366#12561#0" />
-            <element signature="e#10366#10735#1" />
-            <element signature="e#10769#11005#0" />
-            <element signature="e#10910#11005#0" />
-            <element signature="e#11044#12385#0" />
-            <element signature="e#11078#11138#0" />
-            <element signature="e#11165#12385#0" />
-            <element signature="e#11512#11830#0" />
-            <element signature="e#12184#12325#0" />
-            <element signature="e#12435#12480#0" />
-            <element signature="e#12606#12869#0" />
-            <element signature="e#12777#12848#0" />
-            <element signature="e#12934#14012#0" />
-            <element signature="e#13125#13196#0" />
-            <element signature="e#14085#14771#0" />
-            <element signature="e#14813#14817#0" />
-            <element signature="e#14860#14991#0" />
-            <element signature="e#15035#16025#0" />
-            <element signature="e#15035#15212#1" />
-            <element signature="e#15324#15973#0" />
-            <element signature="e#15489#15599#0" />
-            <element signature="e#15741#15828#0" />
-            <element signature="e#15855#15927#0" />
-            <element signature="e#16071#16657#0" />
-            <element signature="e#16071#16392#1" />
-            <element signature="e#16478#16639#0" />
-            <element signature="e#16715#18270#0" />
-            <element signature="e#16715#16923#1" />
-            <element signature="e#17133#18244#0" />
-            <element signature="e#17178#18244#0" />
-            <element signature="e#17219#18244#0" />
-            <element signature="e#17280#17518#0" />
-            <element signature="e#17302#17517#0" />
-            <element signature="e#17337#17495#0" />
-            <element signature="e#17618#17916#0" />
-            <element signature="e#17640#17915#0" />
-            <element signature="e#17677#17893#0" />
-            <element signature="e#18000#18244#0" />
-            <element signature="e#18022#18243#0" />
-            <element signature="e#18059#18221#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,104 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
           <caret line="325" column="27" selection-start-line="325" selection-start-column="6" selection-end-line="325" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#62#1" />
-            <element signature="e#626#1762#0" />
-            <element signature="e#626#798#1" />
-            <element signature="e#842#1138#0" />
-            <element signature="e#896#1069#0" />
-            <element signature="e#1222#1332#0" />
-            <element signature="e#1389#1762#0" />
-            <element signature="e#1809#2107#0" />
-            <element signature="e#1830#1933#0" />
-            <element signature="e#1835#1933#0" />
-            <element signature="e#1992#2107#0" />
-            <element signature="e#2154#2451#0" />
-            <element signature="e#2175#2278#0" />
-            <element signature="e#2180#2278#0" />
-            <element signature="e#2337#2451#0" />
-            <element signature="e#2511#3122#0" />
-            <element signature="e#2511#2587#1" />
-            <element signature="e#2689#2907#0" />
-            <element signature="e#2742#2813#0" />
-            <element signature="e#2964#3122#0" />
-            <element signature="e#3172#3214#0" />
-            <element signature="e#3270#3327#0" />
-            <element signature="e#3376#3917#0" />
-            <element signature="e#3376#3512#1" />
-            <element signature="e#3583#3899#0" />
-            <element signature="e#3624#3899#0" />
-            <element signature="e#3970#6699#0" />
-            <element signature="e#3970#4082#1" />
-            <element signature="e#4217#4324#0" />
-            <element signature="e#4381#5514#0" />
-            <element signature="e#4523#5248#0" />
-            <element signature="e#4682#4750#0" />
-            <element signature="e#5559#5753#0" />
-            <element signature="e#5793#5988#0" />
-            <element signature="e#6044#6699#0" />
-            <element signature="e#6309#6559#0" />
-            <element signature="e#6382#6495#0" />
-            <element signature="e#6758#7660#0" />
-            <element signature="e#6758#6882#1" />
-            <element signature="e#7000#7278#0" />
-            <element signature="e#7118#7255#0" />
-            <element signature="e#7318#7351#0" />
-            <element signature="e#7407#7420#0" />
-            <element signature="e#7484#7560#0" />
-            <element signature="e#7605#7660#0" />
-            <element signature="e#7714#11314#0" />
-            <element signature="e#7714#7820#1" />
-            <element signature="e#8075#9114#0" />
-            <element signature="e#8263#8326#0" />
-            <element signature="e#9158#9319#0" />
-            <element signature="e#9368#9396#0" />
-            <element signature="e#9441#9465#0" />
-            <element signature="e#9527#9648#0" />
-            <element signature="e#9705#10985#0" />
-            <element signature="e#9946#10080#0" />
-            <element signature="e#9975#10080#0" />
-            <element signature="e#10100#10557#0" />
-            <element signature="e#11049#11106#0" />
-            <element signature="e#11174#11235#0" />
-            <element signature="e#11278#11314#0" />
-            <element signature="e#11364#11473#0" />
-            <element signature="e#11404#11473#0" />
-            <element signature="e#11525#11629#0" />
-            <element signature="e#11565#11629#0" />
-            <element signature="e#11683#11787#0" />
-            <element signature="e#11723#11787#0" />
-            <element signature="e#11837#12578#0" />
-            <element signature="e#11953#12059#0" />
-            <element signature="e#12116#12578#0" />
-            <element signature="e#12133#12200#0" />
-            <element signature="e#12635#12776#0" />
-            <element signature="e#12709#12776#0" />
-            <element signature="e#12842#12873#0" />
-            <element signature="e#12925#13029#0" />
-            <element signature="e#12965#13029#0" />
-            <element signature="e#13032#13110#0" />
-            <element signature="e#13238#13563#0" />
-            <element signature="e#13261#13562#0" />
-            <element signature="e#13665#17066#0" />
-            <element signature="e#13665#13846#1" />
-            <element signature="e#13972#14137#0" />
-            <element signature="e#14170#14302#0" />
-            <element signature="e#14369#15188#0" />
-            <element signature="e#14369#14621#1" />
-            <element signature="e#14754#15166#0" />
-            <element signature="e#15247#16309#0" />
-            <element signature="e#15426#15532#0" />
-            <element signature="e#15695#15864#0" />
-            <element signature="e#15928#16287#0" />
-            <element signature="e#16354#17066#0" />
-            <element signature="e#16610#16724#0" />
-            <element signature="e#16771#16841#0" />
-            <element signature="e#16873#17055#0" />
-            <element signature="e#16923#17022#0" />
-            <element signature="e#17132#17136#0" />
-            <element signature="e#17218#17222#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,58 +719,87 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7407">
           <caret line="86" column="28" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://D:/SystemInstallFiles/python_msi/pythonVirtual_Env/modelForm_Demo01-fsnusrAP/Lib/site-packages/django/contrib/admin/templatetags/admin_urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <folding>
-            <element signature="e#0#65#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-126" />
       </provider>
     </entry>
     <entry file="file://D:/SystemInstallFiles/python_msi/pythonVirtual_Env/modelForm_Demo01-fsnusrAP/Lib/site-packages/django/contrib/admin/templatetags/admin_modify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2015">
+        <state relative-caret-position="-2015" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suosuo/serwolais.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1573825594806" expanded="true" signature="91:115" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suosuo/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-563">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resi/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/suosuo/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-469">
-          <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+        <state relative-caret-position="352">
+          <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-            <marker date="1573747631775" expanded="true" signature="1999:2083" ph="..." />
-            <marker date="1573747631775" expanded="true" signature="2099:2108" ph="..." />
+            <marker date="1573828065758" expanded="true" signature="1999:2083" ph="..." />
+            <marker date="1573828065758" expanded="true" signature="2099:2108" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suosuo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suosuo/templates/viewDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/SystemInstallFiles/python_msi/pythonVirtual_Env/modelForm_Demo01-fsnusrAP/Lib/site-packages/django/core/serializers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="127" column="21" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
+          <caret line="131" column="40" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/suosuo/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="36" />
+        <state relative-caret-position="397">
+          <caret line="53" column="53" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="53" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/suosuo/serwolais.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <marker date="1573749541170" expanded="true" signature="91:115" ph="..." />
+            <marker date="1573828440553" expanded="true" signature="1969:2023" ph="..." />
           </folding>
         </state>
       </provider>

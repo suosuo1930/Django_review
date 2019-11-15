@@ -1,7 +1,8 @@
 import os
 
 from django.core import serializers
-from django.http import HttpResponse
+from django.db.models import QuerySet
+from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
 
 from resi.models import Book
@@ -41,3 +42,14 @@ def index(request):
 
     return render(request, 'index.html', locals())
 
+
+def viewDemo(request):
+    form = BookModleForm()
+    if request.method == "POST":
+        form = BookModleForm(request.POST)
+        if form.is_valid():
+            book_obj = Book.objects.create(**form.cleaned_data)
+            book_obj = QuerySet(book_obj)
+            print("is right=", serializers.serialize('json', book_obj))
+            return JsonResponse(serializers.serialize('json', book_obj))
+    return render(request, 'viewDemo.html', locals())
